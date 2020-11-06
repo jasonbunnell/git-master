@@ -2,9 +2,14 @@
 These are my notes from the GitHub Ultimate: Master Git and GitHub course on Udemy
 
 ## 4.23 Backing Out Changes
-1. Unstage an added file with ```git reset HEAD <file-name.file>
+1. Unstage an added file by resetting HEAD
 1. THe file file-name should now be unstaged
-1. Discard changes in unstaged file with ```git checkout -- <file-name.file>
+1. Discard changes in unstaged file by checking out file
+Example:
+```
+git reset HEAD <file-name.file>
+git checkout -- <file-name.file>
+```
 
 ## 4.24 History and Making New Commands with Alias
 1. Create an alias for a git command with git config alias.name
