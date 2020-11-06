@@ -7,5 +7,15 @@ These are my notes from the GitHub Ultimate: Master Git and GitHub course on Ude
 1. Discard changes in unstaged file with ```git checkout -- <file-name.file>
 
 ## 4.24 History and Making New Commands with Alias
-1. Create an alias for a git command with ```git config --global alias.hist "log --oneline --graph --decorate --all"```
-1. See a list of git config changes with ```git config --global --list```
+1. Create an alias for a git command with git config alias.name
+1. See a list of git config changes
+Example:
+```
+git config --global alias.hist "log --oneline --graph --decorate --all"
+git config --global --list
+```
+
+## 4.25 Rename and Delete files
+1. Instead of renaming with mv you can use git mv
+1. To remove git rm <file-name.file>
+
