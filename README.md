@@ -30,6 +30,8 @@ git config --global --list
 added public RSA file on GitHub account for SSH authentication
 something
 something
+bullshit
+bullshit
 
 # Important git commands
 ### Rename or Remove file and update git
