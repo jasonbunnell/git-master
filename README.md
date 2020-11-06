@@ -19,6 +19,9 @@ git config --global --list
 1. Instead of renaming with mv you can use git mv
 1. To remove git rm <file-name.file>
 
+## 4.27 Git Ignore
+
+
 # Important git commands
 ### Rename or Remove file and update git
 ```
