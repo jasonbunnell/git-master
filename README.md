@@ -28,6 +28,8 @@ git config --global --list
 
 ## 7 Add SSH on GitHub.com for Dell Ubuntu
 added public RSA file on GitHub account for SSH authentication
+something
+something
 
 # Important git commands
 ### Rename or Remove file and update git
