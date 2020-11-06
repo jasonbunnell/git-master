@@ -32,4 +32,8 @@ git config --global --list
 ```
 git add -A
 ```
-
+### Modified Log command
+This command is a modified version of git log that has --oneline --graph --decorate -all flags
+```
+git hist
+```
